@@ -1,6 +1,6 @@
 import React ,{ Component } from 'react'
 
-class Welcome extends Component {
+class Message extends Component {
     render()  {
         return (
             <h1> tihs is a class component  a.k.a {this.props.id}
@@ -11,4 +11,4 @@ class Welcome extends Component {
         }
     
 }
-export default Welcome
+export default Message
